@@ -3,7 +3,7 @@ import json
 import time
 
 def main():
-    print(crypto()
+    print(crypto())
 
 def crypto():
     res = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
